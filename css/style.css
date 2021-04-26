@@ -1,11 +1,11 @@
-.container-1, .container-2{
+.container-1{
     border: solid 1px black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 
-.flex-box-container-1, .flex-box-container-2 {
+.flex-box-container-1 {
     display: flex;
     border: solid 1px black;
     padding: 10px;
@@ -20,5 +20,26 @@
     border: solid 1px black;
     align-items: center;
 }
+
+.container-2 {
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2 {
+    display: flex;
+    border: solid 1px blue;
+}
+
+.flex-box-container-2 img{
+    border: solid 1px green;
+}
+
+
+
+
+
 
 /* http://thecatapi.com/api/images/get?format=src&type=gif&size=small */
