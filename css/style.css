@@ -21,10 +21,6 @@
     align-items: center;
 }
 
-/* - - - - - - - - - - - - - - - - - - */
-/* - - - - - - - - - - - - - - - - - - */
-/* - - - - - - - - - - - - - - - - - - */
-
 .container-2 {
     border: 1px solid red;
     width: 75%;
@@ -34,11 +30,14 @@
 
 .flex-box-container-2 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     border: solid 1px blue;
 }
 
 .flex-box-container-2 img{
     border: solid 1px green;
+    padding: 10px;
 }
 
 
