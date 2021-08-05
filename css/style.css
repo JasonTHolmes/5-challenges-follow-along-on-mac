@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.flex-box-container-1, .flex-box-container-2 {
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps{
     display: flex;
     border: solid 1px black;
     padding: 10px;
@@ -26,4 +26,8 @@
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.85);
 }
 
-/* http://thecatapi.com/api/images/get?format=src&type=gif&size=small */
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+/* style flex-box-rps divs */
